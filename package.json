@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Guama1239/bamazon#readme",
   "dependencies": {
+    "console-table": "^0.1.2",
+    "console.table": "^0.10.0",
     "dotenv": "^5.0.0",
     "inquirer": "^5.1.0",
     "mysql": "^2.15.0"
