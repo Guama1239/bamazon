@@ -78,7 +78,7 @@ function start() {
             else if (answer.L_options === "Add to Inventory")
             {addtoInventory()}
             else if (answer.L_options === "Add New Product")
-            {addtoInventory()}
+            {addnewProduct()}
             else (connection.end())
         });
 }
@@ -86,7 +86,7 @@ function start() {
 
 
 
-function addtoInventory() {
+function addnewProduct() {
     // prompt for info about the new item to be added
     inquirer
         .prompt([
