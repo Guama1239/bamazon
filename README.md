@@ -12,13 +12,12 @@ This is an Amazon-like storefront built on Node.js & MySQL. The app will take in
 1.  The app should then prompt users with two messages.
 
     The first should ask them the ID of the product they would like to buy.
+    
     The second message should ask how many units of the product they would like to buy. Follow the on-screen prompts to place an order.
 
+    The application checks if the store has enough of the product, you will be notified and the order may or may not be placed. 
+
    ![Customer Order](Customer_order.png)
-
-1. The application checks if the store has enough of the product, you will be notified and the order will may or may not be placed. 
-
-   ![Customer Order_insufficient](Customer_Order_insufficient.png)
 
 1. Using your terminal, run bamazonManager.js
     
